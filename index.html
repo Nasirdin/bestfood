@@ -21,7 +21,7 @@
                         <a class="header__link" href="#">Бронь</a>
                     </nav>
                     <div class="header__contact">
-                        <a href=tel:+996703313274" class="header__number"><img src="./src/img/phone.svg" alt="телефон">+996 (700)-70-07-00</a>
+                        <a href="tel:+996703313274" class="header__number"><img src="./src/img/phone.svg" alt="телефон">+996 (700)-70-07-00</a>
                         <button class="header__btn">ЗАКАЗ СТОЛИКА</button>
                     </div>
                 </div>
@@ -39,17 +39,17 @@
         <section class='cards'>
            <div class='container'>
                 <div class="home__card card">
-                    <div class="card__img"><img src="./src/img/card.svg"/></div>
+                    <div class="card__img"><img src="./src/img/card.svg" alt="card-img"/></div>
                     <h2 class="card__title">Магическая <span>Атмосфера</span></h2>
                     <p class="card__text">В нашем заведении царит магическая атмосфера наполненная вкусными ароматами</p>
                 </div>
                 <div class="home__card card">
-                    <div class="card__img"><img src="./src/img/card.svg"/></div>
+                    <div class="card__img"><img src="./src/img/card.svg" alt="card-img"/></div>
                     <h2 class="card__title">Лучшее качество <span>Еды</span></h2>
                     <p class="card__text">Качество нашей Еды - отменное!</p>
                 </div>
                 <div class="home__card card">
-                    <div class="card__img"><img src="./src/img/card.svg"/></div>
+                    <div class="card__img"><img src="./src/img/card.svg" alt="card-img"/></div>
                     <h2 class="card__title">Недорогая <span>Еда</span></h2>
                     <p class="card__text">Стоимость нашей Еды зависит только от ее количества. Качество всегда на высоте!</p>
                 </div>
@@ -96,13 +96,41 @@
         </section>
         <section class="food">
             <div class="container">
-                <h2 class="food__title title"></h2>
+                <h2 class="food__title title">Наши <span>Блюда</span></h2>
                 <div class="food__content">
-                    <div class="food__img"></div>
+                    <div class="food__img">
+                        <picture>
+                            <source srcset="./src/img/pizza.webp">
+                            <img src="./src/img/pizza.jpg" alt="pizza">
+                        </picture>
+                    </div>
                     <ul class="food__burgers">
                         <li class="food__burger burger">
-                            <div class="burger__img"></div>
-                            <p class="burger__price">Гамбургер мини <span>------------------------</span> 220 ₽</p>
+                            <div class="burger__img">
+                                <picture>
+                                    <source srcset="./src/img/hamburger.webp">
+                                    <img src="./src/img/hamburger.jpg" alt="hamburger">
+                                </picture>
+                            </div>
+                            <p class="burger__price">Гамбургер мини <span></span> 220 ₽</p>
+                        </li>
+                        <li class="food__burger burger">
+                            <div class="burger__img">
+                                <picture>
+                                    <source srcset="./src/img/hamburger.webp">
+                                    <img src="./src/img/hamburger.jpg" alt="hamburger">
+                                </picture>
+                            </div>
+                            <p class="burger__price">Гамбургер мини <span></span> 220 ₽</p>
+                        </li>
+                        <li class="food__burger burger">
+                            <div class="burger__img">
+                                <picture>
+                                    <source srcset="./src/img/hamburger.webp">
+                                    <img src="./src/img/hamburger.jpg" alt="hamburger">
+                                </picture>
+                            </div>
+                            <p class="burger__price">Гамбургер мини <span></span> 220 ₽</p>
                         </li>
                     </ul>
                 </div>

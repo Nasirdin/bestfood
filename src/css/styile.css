@@ -196,9 +196,6 @@ button:hover{
     display: flex;
     justify-content: space-between;
 }
-.history__item{
-
-}
 .history__num{
     color: #D67E35;
     font-size: 40px;
@@ -226,3 +223,41 @@ button:hover{
     color: #fff;
 }
 
+.food{
+    padding: 130px 0;
+}
+.food__title{
+    text-align: center;
+    margin-bottom: 90px;
+}
+.food__content{
+    display: flex;
+    justify-content: flex-start;
+
+}
+.food__img{
+    margin-right: 30px;
+}
+.food__burgers{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.food__burger{
+    display: flex;
+    align-items: center;
+}
+.burger__price{
+    font-size: 26px;
+    display: flex;
+    align-items: center;
+}
+.burger__img{
+    margin-right: 30px;
+}
+.burger__price span{
+    width: 180px;
+    display: inline-block;
+    margin: 0 5px;
+    border: 1px dashed #000 ;
+}
